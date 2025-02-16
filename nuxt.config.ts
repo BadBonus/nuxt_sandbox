@@ -6,7 +6,10 @@ export default defineNuxtConfig({
   devtools: {enabled: true},
   modules: [
     '@nuxt/eslint',
-    '@hypernym/nuxt-anime'
+    '@nuxt/image',
+    '@nuxt/icon',
+    '@pinia/nuxt',
+    '@vueuse/nuxt'
   ],
   css: ['~/assets/css/main.css'],
   eslint: {

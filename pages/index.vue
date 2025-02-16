@@ -3,6 +3,7 @@
 <template>
   <div class="Index">
     <h1 class="text-3xl text-amber-300 font-bold">Hello world!</h1>
+    <Icon name="uil:github" style="color: black" />
   </div>
 </template>
 
