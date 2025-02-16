@@ -9,7 +9,9 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxt/icon',
     '@pinia/nuxt',
-    '@vueuse/nuxt'
+    '@vueuse/nuxt',
+    '@nuxtjs/google-fonts',
+    'nuxt-svgo'
   ],
   css: ['~/assets/css/main.css'],
   eslint: {
