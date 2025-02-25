@@ -11,16 +11,18 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@vueuse/nuxt',
     '@nuxtjs/google-fonts',
-    'nuxt-svgo'
+    'nuxt-svgo',
   ],
-  css: ['~/assets/css/main.css'],
-  eslint: {
-    // options here
-  },
+  css: [
+    '~/assets/css/helpers/reset.css',
+    'vue-final-modal/style.css',
+    'animate.css',
+    '~/assets/css/main.css',
+  ],
   vite: {
     plugins: [
-      // @ts-ignore
       tailwindcss(),
     ],
   },
+
 })
