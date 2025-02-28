@@ -1,0 +1,56 @@
+/**
+ * Helper mixins
+*/
+
+/* 
+@mixin clearfix {
+  &::after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+}
+
+// Media queries
+@mixin bp($point) {
+  @if $point == large {
+    @media (min-width: 1280px) {
+      @content;
+    }
+  } @else if $point == small {
+    @media (max-width: 1279px) {
+      @content;
+    }
+  }
+}
+
+@mixin largeThen($point) {
+  @media only screen and (min-width: $point) {
+    @content;
+  }
+}
+
+@mixin smallThen($point) {
+  @media only screen and (max-width: $point) {
+    @content;
+  }
+}
+
+//Placeholders
+//Usage:
+//@include placeholder;
+@mixin placeholder {
+  // sass-lint:disable no-vendor-prefixes
+  ::-webkit-input-placeholder {
+    @content;
+  }
+  :-moz-placeholder {
+    @content;
+  }
+  ::-moz-placeholder {
+    @content;
+  }
+  :-ms-input-placeholder {
+    @content;
+  }
+} */

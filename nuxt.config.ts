@@ -12,6 +12,7 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     '@nuxtjs/google-fonts',
     'nuxt-svgo',
+    'reka-ui/nuxt'
   ],
   css: [
     '~/assets/css/helpers/reset.css',

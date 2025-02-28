@@ -1,1 +1,17 @@
 @import "tailwindcss";
+@import "./base.css";
+@import "./components.css";
+@import "./utilities.css";
+@import "./theme.css";
+@import "./vars.css";
+
+html {
+}
+
+*.disabled,
+*.disabled *,
+.disabled {
+  cursor: default;
+  pointer-events: none;
+  opacity: 0.5;
+}
